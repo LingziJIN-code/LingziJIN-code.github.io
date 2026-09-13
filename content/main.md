@@ -84,169 +84,98 @@
      PUBLICATIONS SECTION
      Each paper card accepts attributes:
        - data-selected="true" : Displayed in the default "Selected" tab.
-       - data-author-rank="1" : Authorship position.
-       - data-year="2025"     : Publication year.
+       - data-author-rank="1" : Authorship position (1 for 1st author, 2 for 2nd, etc.). Used for sorting in "All".
+       - data-year="2026"     : Publication year. Used for secondary sorting in "All".
      ========================================================================== -->
 <h1 id="publications" class="section-title">📝 Publications</h1>
-
 <div class="publications-toolbar">
-  <p class="muted-note">
-    My name is highlighted in bold.
-  </p>
-
+  <p class="muted-note">(<sup>*</sup> denotes equal contribution, <sup>#</sup> denotes corresponding author.)</p>
   <div class="paper-toggle" role="tablist" aria-label="Publication filter">
-    <button
-      type="button"
-      class="paper-toggle-btn is-active"
-      data-filter="selected"
-      role="tab"
-      aria-selected="true">
-      Selected
-    </button>
-
-    <button
-      type="button"
-      class="paper-toggle-btn"
-      data-filter="all"
-      role="tab"
-      aria-selected="false">
-      All
-    </button>
+    <button type="button" class="paper-toggle-btn is-active" data-filter="selected" role="tab" aria-selected="true">Selected</button>
+    <button type="button" class="paper-toggle-btn" data-filter="all" role="tab" aria-selected="false">All</button>
   </div>
 </div>
 
 <div id="published-papers">
 
-  <!-- Paper 1 -->
-  <div
-    class="paper-card"
-    data-selected="true"
-    data-author-rank="1"
-    data-year="2025">
-
-    <div class="paper-image-container">
-      <img
-        src="images/paper-placeholder.svg"
-        alt="Nonconvex nonsmooth multicomposite optimization paper">
+<!-- Paper 1 -->
+<div class="paper-card" data-selected="true" data-author-rank="1" data-year="2026">
+  <div class="paper-image-container">
+    <img src="images/paper-placeholder.svg" alt="GaussianGrasp teaser figure">
+  </div>
+  <div class="paper-content">
+    <div class="paper-title">GaussianGrasp: 3D Gaussian Splatting as Universal Representation for Dexterous Robotic Grasping</div>
+    <div class="paper-authors"><strong>Alex Chen<sup>*</sup></strong>, Maya Patel<sup>*</sup>, Lucas Vance, Sarah Jenkins<sup>#</sup></div>
+    <div class="paper-meta">
+      <span class="conf-badge">CVPR 2026 (Oral & Best Paper Finalist)</span>
+      <span class="ccf-badge">CCF-A</span>
     </div>
-
-    <div class="paper-content">
-      <div class="paper-title">
-        Nonconvex Nonsmooth Multicomposite Optimization and Its Applications to Recurrent Neural Networks
-      </div>
-
-      <div class="paper-authors">
-        <strong>Lingzi Jin</strong>, Xiao Wang, Xiaojun Chen
-      </div>
-
-      <div class="paper-meta">
-        <span class="conf-badge">
-          SIAM Journal on Optimization
-        </span>
-
-        <span class="ccf-badge">
-          Vol. 35, pp. 2343&ndash;2371, 2025
-        </span>
-      </div>
-
-      <div class="paper-links">
-        <!-- Replace # with the actual paper URL. -->
-        <a
-          href="#"
-          class="paper-btn paper-btn-primary">
-          Paper
-        </a>
-      </div>
+    <div class="paper-links">
+      <a href="https://arxiv.org/" class="paper-btn paper-btn-primary" target="_blank" rel="noopener noreferrer">Paper</a>
+      <a href="https://github.com/" class="paper-btn paper-btn-secondary" target="_blank" rel="noopener noreferrer">Code</a>
+      <a href="#" class="paper-btn" target="_blank" rel="noopener noreferrer">Project Page</a>
+      <a href="#" class="paper-btn" target="_blank" rel="noopener noreferrer">Video Demo</a>
     </div>
   </div>
+</div>
 
-
-  <!-- Paper 2 -->
-  <div
-    class="paper-card"
-    data-selected="true"
-    data-author-rank="1"
-    data-year="2025">
-
-    <div class="paper-image-container">
-      <img
-        src="images/paper-placeholder.svg"
-        alt="Stochastic nested primal-dual method paper">
+<!-- Paper 2 -->
+<div class="paper-card" data-selected="true" data-author-rank="1" data-year="2025">
+  <div class="paper-image-container">
+    <img src="images/paper-placeholder.svg" alt="VLA-Scale teaser figure">
+  </div>
+  <div class="paper-content">
+    <div class="paper-title">VLA-Scale: Cross-Embodiment Robot Learning with Differentiable Trajectory Diffusion</div>
+    <div class="paper-authors"><strong>Alex Chen</strong>, Ethan Walker, Hiroshi Tanaka, Sarah Jenkins</div>
+    <div class="paper-meta">
+      <span class="conf-badge">NeurIPS 2025 (Spotlight)</span>
+      <span class="ccf-badge">CCF-A</span>
     </div>
-
-    <div class="paper-content">
-      <div class="paper-title">
-        Stochastic Nested Primal-Dual Method for Nonconvex Constrained Composition Optimization
-      </div>
-
-      <div class="paper-authors">
-        <strong>Lingzi Jin</strong>, Xiao Wang
-      </div>
-
-      <div class="paper-meta">
-        <span class="conf-badge">
-          Mathematics of Computation
-        </span>
-
-        <span class="ccf-badge">
-          Vol. 94, pp. 305&ndash;358, 2025
-        </span>
-      </div>
-
-      <div class="paper-links">
-        <!-- Replace # with the actual paper URL. -->
-        <a
-          href="#"
-          class="paper-btn paper-btn-primary">
-          Paper
-        </a>
-      </div>
+    <div class="paper-links">
+      <a href="https://arxiv.org/" class="paper-btn paper-btn-primary" target="_blank" rel="noopener noreferrer">Paper</a>
+      <a href="https://github.com/" class="paper-btn paper-btn-secondary" target="_blank" rel="noopener noreferrer">Code</a>
+      <a href="#" class="paper-btn" target="_blank" rel="noopener noreferrer">Poster</a>
     </div>
   </div>
+</div>
 
-
-  <!-- Paper 3 -->
-  <div
-    class="paper-card"
-    data-selected="true"
-    data-author-rank="1"
-    data-year="2022">
-
-    <div class="paper-image-container">
-      <img
-        src="images/paper-placeholder.svg"
-        alt="Stochastic primal-dual method paper">
+<!-- Paper 3 -->
+<div class="paper-card" data-selected="true" data-author-rank="1" data-year="2025">
+  <div class="paper-image-container">
+    <img src="images/paper-placeholder.svg" alt="OmniDepth figure">
+  </div>
+  <div class="paper-content">
+    <div class="paper-title">OmniDepth: Zero-Shot Monocular Metric Depth Estimation across Extreme Weather Conditions</div>
+    <div class="paper-authors"><strong>Alex Chen<sup>*</sup></strong>, Daniel Kim<sup>*</sup>, Elena Rostova, Marcus Zhang</div>
+    <div class="paper-meta">
+      <span class="conf-badge">ICCV 2025</span>
+      <span class="ccf-badge">CCF-A</span>
     </div>
-
-    <div class="paper-content">
-      <div class="paper-title">
-        A Stochastic Primal-Dual Method for a Class of Nonconvex Constrained Optimization
-      </div>
-
-      <div class="paper-authors">
-        <strong>Lingzi Jin</strong>, Xiao Wang
-      </div>
-
-      <div class="paper-meta">
-        <span class="conf-badge">
-          Computational Optimization and Applications
-        </span>
-
-        <span class="ccf-badge">
-          Vol. 83, pp. 143&ndash;180, 2022
-        </span>
-      </div>
-
-      <div class="paper-links">
-        <!-- Replace # with the actual paper URL. -->
-        <a
-          href="#"
-          class="paper-btn paper-btn-primary">
-          Paper
-        </a>
-      </div>
+    <div class="paper-links">
+      <a href="https://arxiv.org/" class="paper-btn paper-btn-primary" target="_blank" rel="noopener noreferrer">Paper</a>
+      <a href="https://github.com/" class="paper-btn paper-btn-secondary" target="_blank" rel="noopener noreferrer">Dataset</a>
     </div>
   </div>
+</div>
+
+<!-- Paper 4 (Collaborative paper, hidden in Selected tab by default) -->
+<div class="paper-card" data-author-rank="3" data-year="2026">
+  <div class="paper-image-container">
+    <img src="images/paper-placeholder.svg" alt="TactileFlow figure">
+  </div>
+  <div class="paper-content">
+    <div class="paper-title">TactileFlow: Visuotactile Sensor Fusion for Slippage Detection in Deformable Object Handling</div>
+    <div class="paper-authors">Sofia Romero<sup>*</sup>, Jordan Lee<sup>*</sup>, <strong>Alex Chen</strong>, Sarah Jenkins</div>
+    <div class="paper-meta">
+      <span class="conf-badge">ICRA 2026</span>
+      <span class="ccf-badge">CCF-B</span>
+    </div>
+    <div class="paper-links">
+      <a href="https://arxiv.org/" class="paper-btn paper-btn-primary" target="_blank" rel="noopener noreferrer">Paper</a>
+      <a href="https://github.com/" class="paper-btn paper-btn-secondary" target="_blank" rel="noopener noreferrer">Code</a>
+    </div>
+  </div>
+</div>
 
 </div>
 
