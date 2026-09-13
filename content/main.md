@@ -1,192 +1,309 @@
 <!-- ==========================================================================
-     ABOUT ME SECTION
+     ABOUT ME
      ========================================================================== -->
 <h1 id="about-me" class="section-title">🌟 About Me</h1>
 
 <p class="lead">
-  Hello! I am <strong>Alex Chen (陈晨)</strong>, a fourth-year Ph.D. candidate in Computer Science at
-  <strong>Stanford University</strong>, where I am very fortunate to be advised by Prof.
-  <a href="https://example.edu/~advisor" target="_blank" rel="noopener noreferrer">Sarah Jenkins</a>.
-  Previously, I obtained my B.S. in Computer Science & Applied Mathematics from <strong>Carnegie Mellon University</strong>.
-  During the summers of 2024 and 2025, I was a research scientist intern at <strong>DeepMind Robotics</strong>.
+  Hello! I am <strong>Lingzi Jin (金玲子)</strong>, a Postdoctoral Fellow in the
+  Department of Applied Mathematics at
+  <strong>The Hong Kong Polytechnic University</strong>, where I am very fortunate
+  to be advised by Prof.
+  <a href="https://www.polyu.edu.hk/ama/staff/xjchen/ChenXJ.htm"
+     target="_blank"
+     rel="noopener noreferrer">Xiaojun Chen</a>.
 </p>
 
 <p>
-  My research lies at the intersection of <strong>Computer Vision, Robotics, and Multimodal Foundation Models</strong>.
-  My ultimate goal is to build intelligent physical agents capable of perceiving unstructured 3D environments,
-  reasoning about physical dynamics, and executing dexterous manipulation tasks in the real world.
+  I obtained my Ph.D. in Applied Optimization and Optimal Control from the same
+  department under the supervision of Prof. Xiaojun Chen and Prof.
+  <a href="https://wangxiao07.github.io/"
+     target="_blank"
+     rel="noopener noreferrer">Xiao Wang</a>.
+  Before that, I received my M.Sc. in Operational Research and Cybernetics from
+  the <strong>University of Chinese Academy of Sciences</strong>, and my B.Sc.
+  in Mathematics and Applied Mathematics from
+  <strong>Shanghai University</strong>.
 </p>
 
 <p>
-  To achieve this, my current projects explore three synergistic directions:
+  My research lies at the intersection of
+  <strong>optimization and machine learning</strong>, including:
 </p>
 
-<ul class="modern-list" style="margin-top: 8px; margin-bottom: 14px;">
-  <li><strong>Neural Scene Representations:</strong> Building real-time dynamic radiance fields and Gaussian splatting primitives for metric-scale 3D mapping and novel view synthesis.</li>
-  <li><strong>Vision-Language-Action Models (VLA):</strong> Training cross-embodiment transformer policies conditioned on continuous visual observations and open-vocabulary natural language instructions.</li>
-  <li><strong>Physics-Informed World Simulators:</strong> Developing differentiable physics engines to generate synthetic sensor rollouts and accelerate sim-to-real transfer.</li>
+<ul>
+  <li>Nonconvex and nonsmooth optimization algorithms in machine learning</li>
+  <li>Stochastic optimization algorithms</li>
+  <li>Large-scale nonconvex optimization</li>
+  <li>Constrained optimization</li>
 </ul>
 
 <div class="collab-callout">
-  📬 I am actively open to research discussions, academic talks, and collaborating on open-source robotics benchmarks. Feel free to reach out via email!
+  📬 I am open to research discussions and academic collaboration.
+  Feel free to contact me at
+  <a href="mailto:ling-zi.jin@connect.polyu.hk">
+    ling-zi.jin@connect.polyu.hk
+  </a>.
 </div>
 
-<!-- ==========================================================================
-     NEWS SECTION
-     Add your latest news items here. Newest on top.
-     ========================================================================== -->
-<h1 id="news" class="section-title">🔥 News</h1>
-<ul class="modern-list">
-  <li><span class="modern-list-date">2026.04</span><span class="modern-list-content">Excited to announce that <em>GaussianGrasp</em> received the <strong>Best Paper Award Finalist</strong> at <strong>CVPR 2026</strong>!</span></li>
-  <li><span class="modern-list-date">2026.01</span><span class="modern-list-content">Our paper on open-world robotic manipulation was accepted to <strong>ICRA 2026</strong> as an <strong>Oral Presentation</strong>!</span></li>
-  <li><span class="modern-list-date">2025.10</span><span class="modern-list-content">Gave an invited talk on <em>"From Photorealism to Physical Action"</em> at the <strong>CoRL Workshop on Robot Learning</strong>.</span></li>
-  <li><span class="modern-list-date">2025.07</span><span class="modern-list-content">Started my second research internship at <strong>DeepMind (Mountain View)</strong> working on foundation models for manipulation!</span></li>
-</ul>
 
 <!-- ==========================================================================
-     PUBLICATIONS SECTION
-     Each paper card accepts attributes:
-       - data-selected="true" : Displayed in the default "Selected" tab.
-       - data-author-rank="1" : Authorship position (1 for 1st author, 2 for 2nd, etc.). Used for sorting in "All".
-       - data-year="2026"     : Publication year. Used for secondary sorting in "All".
+     NEWS
+     Newest items should appear first.
+     ========================================================================== -->
+<h1 id="news" class="section-title">🔥 News</h1>
+
+<ul class="modern-list">
+  <li>
+    <span class="modern-list-date">2026.06</span>
+    <span class="modern-list-content">
+      I joined the Department of Applied Mathematics at The Hong Kong
+      Polytechnic University as a Postdoctoral Fellow.
+    </span>
+  </li>
+
+  <li>
+    <span class="modern-list-date">2026.05</span>
+    <span class="modern-list-content">
+      I received my Ph.D. in Applied Optimization and Optimal Control from
+      The Hong Kong Polytechnic University.
+    </span>
+  </li>
+
+  <li>
+    <span class="modern-list-date">2025</span>
+    <span class="modern-list-content">
+      Two papers were published in
+      <em>SIAM Journal on Optimization</em> and
+      <em>Mathematics of Computation</em>.
+    </span>
+  </li>
+</ul>
+
+
+<!-- ==========================================================================
+     PUBLICATIONS
      ========================================================================== -->
 <h1 id="publications" class="section-title">📝 Publications</h1>
+
 <div class="publications-toolbar">
-  <p class="muted-note">(<sup>*</sup> denotes equal contribution, <sup>#</sup> denotes corresponding author.)</p>
+  <p class="muted-note">
+    My name is highlighted in bold.
+  </p>
+
   <div class="paper-toggle" role="tablist" aria-label="Publication filter">
-    <button type="button" class="paper-toggle-btn is-active" data-filter="selected" role="tab" aria-selected="true">Selected</button>
-    <button type="button" class="paper-toggle-btn" data-filter="all" role="tab" aria-selected="false">All</button>
+    <button type="button"
+            class="paper-toggle-btn is-active"
+            data-filter="selected"
+            role="tab"
+            aria-selected="true">
+      Selected
+    </button>
+
+    <button type="button"
+            class="paper-toggle-btn"
+            data-filter="all"
+            role="tab"
+            aria-selected="false">
+      All
+    </button>
   </div>
 </div>
 
 <div id="published-papers">
 
-<!-- Paper 1 -->
-<div class="paper-card" data-selected="true" data-author-rank="1" data-year="2026">
-  <div class="paper-image-container">
-    <img src="images/paper-placeholder.svg" alt="GaussianGrasp teaser figure">
-  </div>
-  <div class="paper-content">
-    <div class="paper-title">GaussianGrasp: 3D Gaussian Splatting as Universal Representation for Dexterous Robotic Grasping</div>
-    <div class="paper-authors"><strong>Alex Chen<sup>*</sup></strong>, Maya Patel<sup>*</sup>, Lucas Vance, Sarah Jenkins<sup>#</sup></div>
-    <div class="paper-meta">
-      <span class="conf-badge">CVPR 2026 (Oral & Best Paper Finalist)</span>
-      <span class="ccf-badge">CCF-A</span>
+  <!-- Publication 1 -->
+  <div class="paper-card"
+       data-selected="true"
+       data-author-rank="1"
+       data-year="2025">
+
+    <div class="paper-content">
+      <div class="paper-title">
+        Nonconvex Nonsmooth Multicomposite Optimization and Its Applications
+        to Recurrent Neural Networks
+      </div>
+
+      <div class="paper-authors">
+        <strong>Lingzi Jin</strong>, Xiao Wang, and Xiaojun Chen
+      </div>
+
+      <div class="paper-meta">
+        <span class="conf-badge">
+          SIAM Journal on Optimization
+        </span>
+        <span class="ccf-badge">
+          35: 2343–2371, 2025
+        </span>
+      </div>
+
+      <div class="paper-summary">
+        This work studies nonconvex nonsmooth multicomposite optimization
+        problems arising in machine learning. It establishes relationships
+        among the original formulation, its constrained reformulation, and its
+        ℓ<sub>1</sub>-penalty reformulation in terms of first- and second-order
+        d-stationarity, with applications to recurrent neural network training.
+      </div>
+
+      <!-- Add DOI or paper link here when available:
+      <div class="paper-links">
+        <a href="YOUR_PAPER_URL"
+           class="paper-btn paper-btn-primary"
+           target="_blank"
+           rel="noopener noreferrer">Paper</a>
+      </div>
+      -->
     </div>
-    <div class="paper-links">
-      <a href="https://arxiv.org/" class="paper-btn paper-btn-primary" target="_blank" rel="noopener noreferrer">Paper</a>
-      <a href="https://github.com/" class="paper-btn paper-btn-secondary" target="_blank" rel="noopener noreferrer">Code</a>
-      <a href="#" class="paper-btn" target="_blank" rel="noopener noreferrer">Project Page</a>
-      <a href="#" class="paper-btn" target="_blank" rel="noopener noreferrer">Video Demo</a>
+  </div>
+
+
+  <!-- Publication 2 -->
+  <div class="paper-card"
+       data-selected="true"
+       data-author-rank="1"
+       data-year="2025">
+
+    <div class="paper-content">
+      <div class="paper-title">
+        Stochastic Nested Primal-Dual Method for Nonconvex Constrained
+        Composition Optimization
+      </div>
+
+      <div class="paper-authors">
+        <strong>Lingzi Jin</strong> and Xiao Wang
+      </div>
+
+      <div class="paper-meta">
+        <span class="conf-badge">
+          Mathematics of Computation
+        </span>
+        <span class="ccf-badge">
+          94: 305–358, 2025
+        </span>
+      </div>
+
+      <div class="paper-summary">
+        This work proposes a stochastic nested primal-dual method for
+        nonconvex constrained composition optimization. Theoretical convergence
+        and numerical experiments on risk-averse portfolio optimization and
+        orthogonal nonnegative matrix decomposition demonstrate the
+        effectiveness of the proposed method and its variants.
+      </div>
+
+      <!-- Add DOI or paper link here when available:
+      <div class="paper-links">
+        <a href="YOUR_PAPER_URL"
+           class="paper-btn paper-btn-primary"
+           target="_blank"
+           rel="noopener noreferrer">Paper</a>
+      </div>
+      -->
     </div>
   </div>
+
+
+  <!-- Publication 3 -->
+  <div class="paper-card"
+       data-selected="true"
+       data-author-rank="1"
+       data-year="2022">
+
+    <div class="paper-content">
+      <div class="paper-title">
+        A Stochastic Primal-Dual Method for a Class of Nonconvex
+        Constrained Optimization
+      </div>
+
+      <div class="paper-authors">
+        <strong>Lingzi Jin</strong> and Xiao Wang
+      </div>
+
+      <div class="paper-meta">
+        <span class="conf-badge">
+          Computational Optimization and Applications
+        </span>
+        <span class="ccf-badge">
+          83: 143–180, 2022
+        </span>
+      </div>
+
+      <div class="paper-summary">
+        This work develops a stochastic primal-dual method for nonconvex
+        optimization problems with uncertainty in the objective and numerous
+        nonconvex functional constraints. It investigates the impact of
+        dual-source sampling noise on theoretical convergence and numerical
+        performance.
+      </div>
+
+      <!-- Add DOI or paper link here when available:
+      <div class="paper-links">
+        <a href="YOUR_PAPER_URL"
+           class="paper-btn paper-btn-primary"
+           target="_blank"
+           rel="noopener noreferrer">Paper</a>
+      </div>
+      -->
+    </div>
+  </div>
+
 </div>
 
-<!-- Paper 2 -->
-<div class="paper-card" data-selected="true" data-author-rank="1" data-year="2025">
-  <div class="paper-image-container">
-    <img src="images/paper-placeholder.svg" alt="VLA-Scale teaser figure">
-  </div>
-  <div class="paper-content">
-    <div class="paper-title">VLA-Scale: Cross-Embodiment Robot Learning with Differentiable Trajectory Diffusion</div>
-    <div class="paper-authors"><strong>Alex Chen</strong>, Ethan Walker, Hiroshi Tanaka, Sarah Jenkins</div>
-    <div class="paper-meta">
-      <span class="conf-badge">NeurIPS 2025 (Spotlight)</span>
-      <span class="ccf-badge">CCF-A</span>
-    </div>
-    <div class="paper-links">
-      <a href="https://arxiv.org/" class="paper-btn paper-btn-primary" target="_blank" rel="noopener noreferrer">Paper</a>
-      <a href="https://github.com/" class="paper-btn paper-btn-secondary" target="_blank" rel="noopener noreferrer">Code</a>
-      <a href="#" class="paper-btn" target="_blank" rel="noopener noreferrer">Poster</a>
-    </div>
-  </div>
-</div>
-
-<!-- Paper 3 -->
-<div class="paper-card" data-selected="true" data-author-rank="1" data-year="2025">
-  <div class="paper-image-container">
-    <img src="images/paper-placeholder.svg" alt="OmniDepth figure">
-  </div>
-  <div class="paper-content">
-    <div class="paper-title">OmniDepth: Zero-Shot Monocular Metric Depth Estimation across Extreme Weather Conditions</div>
-    <div class="paper-authors"><strong>Alex Chen<sup>*</sup></strong>, Daniel Kim<sup>*</sup>, Elena Rostova, Marcus Zhang</div>
-    <div class="paper-meta">
-      <span class="conf-badge">ICCV 2025</span>
-      <span class="ccf-badge">CCF-A</span>
-    </div>
-    <div class="paper-links">
-      <a href="https://arxiv.org/" class="paper-btn paper-btn-primary" target="_blank" rel="noopener noreferrer">Paper</a>
-      <a href="https://github.com/" class="paper-btn paper-btn-secondary" target="_blank" rel="noopener noreferrer">Dataset</a>
-    </div>
-  </div>
-</div>
-
-<!-- Paper 4 (Collaborative paper, hidden in Selected tab by default) -->
-<div class="paper-card" data-author-rank="3" data-year="2026">
-  <div class="paper-image-container">
-    <img src="images/paper-placeholder.svg" alt="TactileFlow figure">
-  </div>
-  <div class="paper-content">
-    <div class="paper-title">TactileFlow: Visuotactile Sensor Fusion for Slippage Detection in Deformable Object Handling</div>
-    <div class="paper-authors">Sofia Romero<sup>*</sup>, Jordan Lee<sup>*</sup>, <strong>Alex Chen</strong>, Sarah Jenkins</div>
-    <div class="paper-meta">
-      <span class="conf-badge">ICRA 2026</span>
-      <span class="ccf-badge">CCF-B</span>
-    </div>
-    <div class="paper-links">
-      <a href="https://arxiv.org/" class="paper-btn paper-btn-primary" target="_blank" rel="noopener noreferrer">Paper</a>
-      <a href="https://github.com/" class="paper-btn paper-btn-secondary" target="_blank" rel="noopener noreferrer">Code</a>
-    </div>
-  </div>
-</div>
-
-</div>
 
 <!-- ==========================================================================
-     WORKING PAPERS & PREPRINTS (MINI CARDS)
+     PREPRINTS
      ========================================================================== -->
-<h2 id="working-papers" class="section-title subsection-title">Working Papers</h2>
+<h2 id="working-papers"
+    class="section-title subsection-title">
+  Preprints
+</h2>
 
 <div class="mini-card">
-  <div class="mini-card-title">Sim2World: Scalable Synthetic Data Generation via Generalizable Physics Simulators</div>
-  <div class="mini-card-authors"><strong>Alex Chen<sup>*</sup></strong>, Chloe Nguyen<sup>*</sup>, Liam Brooks, Sarah Jenkins</div>
-  <div class="mini-card-status">Under review at CoRL 2026 · Preprint on arXiv</div>
+  <div class="mini-card-title">
+    A Sequential Regularized Piecewise Affine Algorithm for Nonconvex
+    Nonsmooth Multicomposite Optimization in RNN Training
+  </div>
+
+  <div class="mini-card-authors">
+    <strong>Lingzi Jin</strong>, Xiao Wang, and Xiaojun Chen
+  </div>
+
+  <div class="mini-card-status">
+    Submitted to <em>Mathematical Programming Computation</em>
+  </div>
+
+  <div class="paper-summary">
+    This work establishes complexity bounds for approximate first- and
+    second-order d-stationary points of an ℓ<sub>1</sub>-penalty reformulation
+    using a sequential quadratically regularized piecewise affine approximation
+    method. Numerical experiments validate the proposed framework for recurrent
+    neural network training.
+  </div>
 </div>
 
-<div class="mini-card">
-  <div class="mini-card-title">DexterBench: A Photorealistic Benchmark for Multi-Finger In-Hand Manipulation</div>
-  <div class="mini-card-authors">Maya Patel, <strong>Alex Chen</strong>, Kenji Sato, Sarah Jenkins</div>
-  <div class="mini-card-status">Preprint available · Benchmark code released</div>
-</div>
 
 <!-- ==========================================================================
-     EXPERIENCE / INTERNSHIPS
+     ACADEMIC APPOINTMENTS
      ========================================================================== -->
-<h1 id="experience" class="section-title">💻 Experience</h1>
+<h1 id="experience" class="section-title">💼 Academic Appointments</h1>
 
 <div class="exp-card">
   <div class="exp-header">
-    <div class="exp-title">Research Scientist Intern</div>
-    <div class="exp-date">Jun. 2025 - Sep. 2025</div>
+    <div class="exp-title">Postdoctoral Fellow</div>
+    <div class="exp-date">Jun. 2026 – Present</div>
   </div>
+
   <div class="exp-org">
-    <img class="company-logo" src="images/org-placeholder.svg" alt="DeepMind Logo" loading="lazy">
-    <span>Google DeepMind · Robotics & Embodied AI Team</span>
+    The Hong Kong Polytechnic University · Hong Kong
   </div>
-  <div class="exp-desc">Mentored by Dr. Arthur Clark. Researched scalable vision-language-action policies for real-world dual-arm manipulators.</div>
+
+  <div class="exp-desc">
+    Department of Applied Mathematics<br>
+    Advisor:
+    <a href="https://www.polyu.edu.hk/ama/staff/xjchen/ChenXJ.htm"
+       target="_blank"
+       rel="noopener noreferrer">Prof. Xiaojun Chen</a>
+  </div>
 </div>
 
-<div class="exp-card">
-  <div class="exp-header">
-    <div class="exp-title">Computer Vision Research Intern</div>
-    <div class="exp-date">Jun. 2024 - Sep. 2024</div>
-  </div>
-  <div class="exp-org">
-    <img class="company-logo" src="images/org-placeholder.svg" alt="Company Logo" loading="lazy">
-    <span>NVIDIA Research · Autonomous Driving Lab</span>
-  </div>
-  <div class="exp-desc">Mentored by Dr. Rebecca Stone. Developed efficient neural volume rendering algorithms for surround-view camera rigs.</div>
-</div>
 
 <!-- ==========================================================================
      EDUCATION
@@ -195,113 +312,268 @@
 
 <div class="exp-card">
   <div class="exp-header">
-    <div class="exp-title">Ph.D. in Computer Science</div>
-    <div class="exp-date">2022 - Present</div>
+    <div class="exp-title">
+      Ph.D. in Applied Optimization and Optimal Control
+    </div>
+    <div class="exp-date">Sep. 2022 – May 2026</div>
   </div>
-  <div class="exp-org">Stanford University</div>
-  <div class="exp-desc">Stanford AI Lab (SAIL). Advised by Prof. Sarah Jenkins. Focus: Robot Learning, 3D Vision & Embodied AI.</div>
+
+  <div class="exp-org">
+    The Hong Kong Polytechnic University · Hong Kong
+  </div>
+
+  <div class="exp-desc">
+    Department of Applied Mathematics<br>
+    Advisors:
+    <a href="https://www.polyu.edu.hk/ama/staff/xjchen/ChenXJ.htm"
+       target="_blank"
+       rel="noopener noreferrer">Prof. Xiaojun Chen</a>
+    and
+    <a href="https://wangxiao07.github.io/"
+       target="_blank"
+       rel="noopener noreferrer">Prof. Xiao Wang</a>
+  </div>
 </div>
+
 
 <div class="exp-card">
   <div class="exp-header">
-    <div class="exp-title">B.S. in Computer Science & Applied Mathematics</div>
-    <div class="exp-date">2018 - 2022</div>
+    <div class="exp-title">
+      M.Sc. in Operational Research and Cybernetics
+    </div>
+    <div class="exp-date">Sep. 2019 – Jul. 2022</div>
   </div>
-  <div class="exp-org">Carnegie Mellon University</div>
-  <div class="exp-desc">School of Computer Science. University Honors, Magna Cum Laude. GPA: 3.94 / 4.0.</div>
+
+  <div class="exp-org">
+    University of Chinese Academy of Sciences · Beijing
+  </div>
+
+  <div class="exp-desc">
+    School of Mathematical Sciences<br>
+    Advisors: Prof. Tiande Guo and Prof. Xiao Wang
+  </div>
 </div>
 
+
+<div class="exp-card">
+  <div class="exp-header">
+    <div class="exp-title">
+      B.Sc. in Mathematics and Applied Mathematics
+    </div>
+    <div class="exp-date">Sep. 2015 – Jul. 2019</div>
+  </div>
+
+  <div class="exp-org">
+    Shanghai University · Shanghai
+  </div>
+
+  <div class="exp-desc">
+    QianWeiChang College<br>
+    Advisor: Prof. Yanqin Bai
+  </div>
+</div>
+
+
 <!-- ==========================================================================
-     HONORS & AWARDS
+     TALKS
      ========================================================================== -->
-<h1 id="honors" class="section-title">🎖 Honors and Awards</h1>
+<h1 id="talks" class="section-title">🎤 Talks</h1>
+
 <ul class="modern-list">
-  <li><span class="modern-list-date">2026</span><span class="modern-list-content">CVPR 2026 Best Paper Award Finalist (Top 0.5% of submissions)</span></li>
-  <li><span class="modern-list-date">2024</span><span class="modern-list-content">Qualcomm Innovation Fellowship Finalist</span></li>
-  <li><span class="modern-list-date">2022</span><span class="modern-list-content">Stanford Graduate Fellowship (SGF) in Science & Engineering</span></li>
-  <li><span class="modern-list-date">2022</span><span class="modern-list-content">CMU Allen Newell Award for Undergraduate Research Excellence</span></li>
+  <li>
+    <span class="modern-list-date">2025.07</span>
+    <span class="modern-list-content">
+      <strong>Session Presenter</strong>,
+      16th Viennese Conference on Optimal Control and Dynamic Games,
+      Vienna.<br>
+      <em>
+        Nonconvex Nonsmooth Multicomposite Optimization and Its Applications
+        to Recurrent Neural Networks
+      </em>
+    </span>
+  </li>
+
+  <li>
+    <span class="modern-list-date">2025.05</span>
+    <span class="modern-list-content">
+      <strong>Poster Speaker</strong>,
+      Conference on the Mathematical Programming of the Operations Research
+      Society of China, Shanghai.<br>
+      <em>
+        Nonconvex Nonsmooth Multicomposite Optimization and Its Applications
+        to RNNs
+      </em>
+    </span>
+  </li>
+
+  <li>
+    <span class="modern-list-date">2024.11</span>
+    <span class="modern-list-content">
+      <strong>Poster Speaker</strong>,
+      The 14th Triennial International Conference of the Association of
+      Asia-Pacific Operational Research (APORS 2024), Hangzhou.<br>
+      <em>
+        Nonconvex Nonsmooth Optimization with Multicomposite Constraints
+        and Its Applications to RNNs
+      </em>
+    </span>
+  </li>
+
+  <li>
+    <span class="modern-list-date">2024.06</span>
+    <span class="modern-list-content">
+      <strong>Poster Speaker</strong>,
+      The 2024 International Workshop on Modern Optimization and Applications
+      (MOA 2024), Beijing.<br>
+      <em>
+        Complexity towards D-Stationarity of Nonconvex Optimization for RNNs
+      </em>
+    </span>
+  </li>
+
+  <li>
+    <span class="modern-list-date">2024.06</span>
+    <span class="modern-list-content">
+      <strong>Invited Speaker</strong>,
+      Workshop on Stochastic Optimization and Optimization Computing,
+      Beijing Jiaotong University, Beijing.<br>
+      <em>
+        Complexity towards D-Stationarity of Nonconvex Optimization for
+        Recurrent Neural Networks
+      </em>
+    </span>
+  </li>
+
+  <li>
+    <span class="modern-list-date">2024.06</span>
+    <span class="modern-list-content">
+      <strong>Visiting Student</strong>,
+      CAS AMSS–PolyU Joint Laboratory of Applied Mathematics,
+      Academy of Mathematics and Systems Science,
+      Chinese Academy of Sciences, Beijing.
+    </span>
+  </li>
+
+  <li>
+    <span class="modern-list-date">2021.07</span>
+    <span class="modern-list-content">
+      <strong>Session Presenter</strong>,
+      SIAM Conference on Optimization (OP21), online.<br>
+      <em>
+        Complexity on a Stochastic Primal-Dual Method for Nonconvex
+        Constrained Optimization
+      </em>
+    </span>
+  </li>
 </ul>
 
-<!-- ==========================================================================
-     ACADEMIC SERVICES
-     ========================================================================== -->
-<h1 id="services" class="section-title">🤝 Academic Services</h1>
 
-<h2 class="section-title subsection-title" style="margin-top: 18px; margin-bottom: 12px; font-size: 1.05rem; color: #1e293b;">Conference Reviewer</h2>
+<!-- ==========================================================================
+     RESEARCH COLLABORATION
+     ========================================================================== -->
+<h1 id="collaboration" class="section-title">🔬 Research Collaboration</h1>
+
+<div class="mini-card">
+  <div class="mini-card-title">
+    Recon: Reducing Conflicting Gradients from the Root for Multi-Task Learning
+  </div>
+
+  <div class="mini-card-status">
+    Published at ICLR 2023
+  </div>
+
+  <div class="paper-summary">
+    Contributed to the revision and refinement of the manuscript by improving
+    its mathematical exposition and checking technical details. This
+    contribution was acknowledged in the published version; I was not included
+    in the author list.
+  </div>
+</div>
+
+
+<!-- ==========================================================================
+     PROFESSIONAL SERVICE
+     ========================================================================== -->
+<h1 id="services" class="section-title">🤝 Professional Service</h1>
+
+<h2 class="section-title subsection-title"
+    style="margin-top: 18px;
+           margin-bottom: 12px;
+           font-size: 1.05rem;
+           color: #1e293b;">
+  Journal Reviewer
+</h2>
+
 <div class="service-grid">
+
   <div class="service-tile">
     <div class="tile-header">
-      <span class="tile-conf-name">CVPR</span>
-      <div class="tile-years">
-        <span class="tile-year-pill">2026</span>
-        <span class="tile-year-pill">2025</span>
-        <span class="tile-year-pill">2024</span>
-      </div>
+      <span class="tile-conf-name">SIOPT</span>
     </div>
-    <div class="tile-full-name">IEEE/CVF Conference on Computer Vision and Pattern Recognition</div>
+    <div class="tile-full-name">
+      SIAM Journal on Optimization
+    </div>
   </div>
+
   <div class="service-tile">
     <div class="tile-header">
-      <span class="tile-conf-name">NeurIPS</span>
-      <div class="tile-years">
-        <span class="tile-year-pill">2025</span>
-        <span class="tile-year-pill">2024</span>
-      </div>
+      <span class="tile-conf-name">TSP</span>
     </div>
-    <div class="tile-full-name">Conference on Neural Information Processing Systems</div>
+    <div class="tile-full-name">
+      IEEE Transactions on Signal Processing
+    </div>
   </div>
+
   <div class="service-tile">
     <div class="tile-header">
-      <span class="tile-conf-name">ICCV</span>
-      <div class="tile-years">
-        <span class="tile-year-pill">2025</span>
-      </div>
+      <span class="tile-conf-name">COAP</span>
     </div>
-    <div class="tile-full-name">IEEE/CVF International Conference on Computer Vision</div>
+    <div class="tile-full-name">
+      Computational Optimization and Applications
+    </div>
   </div>
+
   <div class="service-tile">
     <div class="tile-header">
-      <span class="tile-conf-name">ECCV</span>
-      <div class="tile-years">
-        <span class="tile-year-pill">2026</span>
-        <span class="tile-year-pill">2024</span>
-      </div>
+      <span class="tile-conf-name">JOTA</span>
     </div>
-    <div class="tile-full-name">European Conference on Computer Vision</div>
-  </div>
-  <div class="service-tile">
-    <div class="tile-header">
-      <span class="tile-conf-name">CoRL</span>
-      <div class="tile-years">
-        <span class="tile-year-pill">2025</span>
-      </div>
+    <div class="tile-full-name">
+      Journal of Optimization Theory and Applications
     </div>
-    <div class="tile-full-name">Conference on Robot Learning</div>
   </div>
-  <div class="service-tile">
-    <div class="tile-header">
-      <span class="tile-conf-name">ICRA</span>
-      <div class="tile-years">
-        <span class="tile-year-pill">2026</span>
-        <span class="tile-year-pill">2025</span>
-      </div>
-    </div>
-    <div class="tile-full-name">IEEE International Conference on Robotics and Automation</div>
-  </div>
+
 </div>
 
-<h2 class="section-title subsection-title" style="margin-top: 24px; margin-bottom: 12px; font-size: 1.05rem; color: #1e293b;">Journal Reviewer & Workshop Organization</h2>
-<ul class="modern-list">
-  <li><span class="modern-list-date">Journal</span><span class="modern-list-content">IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), International Journal of Computer Vision (IJCV)</span></li>
-  <li><span class="modern-list-date">Workshop</span><span class="modern-list-content">Co-Organizer, CVPR 2025 Workshop on Neural Representations for Physical Interaction</span></li>
-</ul>
 
 <!-- ==========================================================================
      TEACHING ASSISTANTSHIPS
      ========================================================================== -->
 <h1 id="teaching" class="section-title">📚 Teaching Assistantships</h1>
+
 <ul class="modern-list">
-  <li><span class="modern-list-date">Spring 2025</span><span class="modern-list-content">CS231N: Deep Learning for Computer Vision (Head TA, ~450 students)</span></li>
-  <li><span class="modern-list-date">Fall 2024</span><span class="modern-list-content">CS224N: Natural Language Processing with Deep Learning (TA)</span></li>
-  <li><span class="modern-list-date">Winter 2023</span><span class="modern-list-content">CS131: Computer Vision Foundations & Applications (TA)</span></li>
+  <li>
+    <span class="modern-list-date">2023–2024</span>
+    <span class="modern-list-content">
+      <strong>Operations Research Methods</strong>,
+      Semester 2, taught by Prof. Zaikun Zhang.
+    </span>
+  </li>
+
+  <li>
+    <span class="modern-list-date">2021–2022</span>
+    <span class="modern-list-content">
+      <strong>Computational Methods for Optimization</strong>,
+      Semester 1, taught by Prof. Xiao Wang.
+    </span>
+  </li>
+
+  <li>
+    <span class="modern-list-date">2020–2021</span>
+    <span class="modern-list-content">
+      <strong>Computational Methods for Optimization</strong>,
+      Semester 1, taught by Prof. Xiao Wang.
+    </span>
+  </li>
 </ul>
+
+ 
