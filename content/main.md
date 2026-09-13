@@ -81,7 +81,11 @@
 
 
 <!-- ==========================================================================
-     PUBLICATIONS
+     PUBLICATIONS SECTION
+     Each paper card accepts attributes:
+       - data-selected="true" : Displayed in the default "Selected" tab.
+       - data-author-rank="1" : Authorship position.
+       - data-year="2025"     : Publication year.
      ========================================================================== -->
 <h1 id="publications" class="section-title">📝 Publications</h1>
 
@@ -91,19 +95,21 @@
   </p>
 
   <div class="paper-toggle" role="tablist" aria-label="Publication filter">
-    <button type="button"
-            class="paper-toggle-btn is-active"
-            data-filter="selected"
-            role="tab"
-            aria-selected="true">
+    <button
+      type="button"
+      class="paper-toggle-btn is-active"
+      data-filter="selected"
+      role="tab"
+      aria-selected="true">
       Selected
     </button>
 
-    <button type="button"
-            class="paper-toggle-btn"
-            data-filter="all"
-            role="tab"
-            aria-selected="false">
+    <button
+      type="button"
+      class="paper-toggle-btn"
+      data-filter="all"
+      role="tab"
+      aria-selected="false">
       All
     </button>
   </div>
@@ -111,141 +117,139 @@
 
 <div id="published-papers">
 
-  <!-- Publication 1 -->
-  <div class="paper-card"
-       data-selected="true"
-       data-author-rank="1"
-       data-year="2025">
+  <!-- Paper 1 -->
+  <div
+    class="paper-card"
+    data-selected="true"
+    data-author-rank="1"
+    data-year="2025">
+
+    <div class="paper-image-container">
+      <img
+        src="images/paper-placeholder.svg"
+        alt="Nonconvex nonsmooth multicomposite optimization paper">
+    </div>
 
     <div class="paper-content">
       <div class="paper-title">
-        Nonconvex Nonsmooth Multicomposite Optimization and Its Applications
-        to Recurrent Neural Networks
+        Nonconvex Nonsmooth Multicomposite Optimization and Its Applications to Recurrent Neural Networks
       </div>
 
       <div class="paper-authors">
-        <strong>Lingzi Jin</strong>, Xiao Wang, and Xiaojun Chen
+        <strong>Lingzi Jin</strong>, Xiao Wang, Xiaojun Chen
       </div>
 
       <div class="paper-meta">
         <span class="conf-badge">
           SIAM Journal on Optimization
         </span>
+
         <span class="ccf-badge">
-          35: 2343–2371, 2025
+          Vol. 35, pp. 2343&ndash;2371, 2025
         </span>
       </div>
 
-      <div class="paper-summary">
-        This work studies nonconvex nonsmooth multicomposite optimization
-        problems arising in machine learning. It establishes relationships
-        among the original formulation, its constrained reformulation, and its
-        ℓ<sub>1</sub>-penalty reformulation in terms of first- and second-order
-        d-stationarity, with applications to recurrent neural network training.
-      </div>
-
-      <!-- Add DOI or paper link here when available:
       <div class="paper-links">
-        <a href="YOUR_PAPER_URL"
-           class="paper-btn paper-btn-primary"
-           target="_blank"
-           rel="noopener noreferrer">Paper</a>
+        <!-- Replace # with the actual paper URL. -->
+        <a
+          href="#"
+          class="paper-btn paper-btn-primary">
+          Paper
+        </a>
       </div>
-      -->
     </div>
   </div>
 
 
-  <!-- Publication 2 -->
-  <div class="paper-card"
-       data-selected="true"
-       data-author-rank="1"
-       data-year="2025">
+  <!-- Paper 2 -->
+  <div
+    class="paper-card"
+    data-selected="true"
+    data-author-rank="1"
+    data-year="2025">
+
+    <div class="paper-image-container">
+      <img
+        src="images/paper-placeholder.svg"
+        alt="Stochastic nested primal-dual method paper">
+    </div>
 
     <div class="paper-content">
       <div class="paper-title">
-        Stochastic Nested Primal-Dual Method for Nonconvex Constrained
-        Composition Optimization
+        Stochastic Nested Primal-Dual Method for Nonconvex Constrained Composition Optimization
       </div>
 
       <div class="paper-authors">
-        <strong>Lingzi Jin</strong> and Xiao Wang
+        <strong>Lingzi Jin</strong>, Xiao Wang
       </div>
 
       <div class="paper-meta">
         <span class="conf-badge">
           Mathematics of Computation
         </span>
+
         <span class="ccf-badge">
-          94: 305–358, 2025
+          Vol. 94, pp. 305&ndash;358, 2025
         </span>
       </div>
 
-      <div class="paper-summary">
-        This work proposes a stochastic nested primal-dual method for
-        nonconvex constrained composition optimization. Theoretical convergence
-        and numerical experiments on risk-averse portfolio optimization and
-        orthogonal nonnegative matrix decomposition demonstrate the
-        effectiveness of the proposed method and its variants.
-      </div>
-
-      <!-- Add DOI or paper link here when available:
       <div class="paper-links">
-        <a href="YOUR_PAPER_URL"
-           class="paper-btn paper-btn-primary"
-           target="_blank"
-           rel="noopener noreferrer">Paper</a>
+        <!-- Replace # with the actual paper URL. -->
+        <a
+          href="#"
+          class="paper-btn paper-btn-primary">
+          Paper
+        </a>
       </div>
-      -->
     </div>
   </div>
 
 
-  <!-- Publication 3 -->
-  <div class="paper-card"
-       data-selected="true"
-       data-author-rank="1"
-       data-year="2022">
+  <!-- Paper 3 -->
+  <div
+    class="paper-card"
+    data-selected="true"
+    data-author-rank="1"
+    data-year="2022">
+
+    <div class="paper-image-container">
+      <img
+        src="images/paper-placeholder.svg"
+        alt="Stochastic primal-dual method paper">
+    </div>
 
     <div class="paper-content">
       <div class="paper-title">
-        A Stochastic Primal-Dual Method for a Class of Nonconvex
-        Constrained Optimization
+        A Stochastic Primal-Dual Method for a Class of Nonconvex Constrained Optimization
       </div>
 
       <div class="paper-authors">
-        <strong>Lingzi Jin</strong> and Xiao Wang
+        <strong>Lingzi Jin</strong>, Xiao Wang
       </div>
 
       <div class="paper-meta">
         <span class="conf-badge">
           Computational Optimization and Applications
         </span>
+
         <span class="ccf-badge">
-          83: 143–180, 2022
+          Vol. 83, pp. 143&ndash;180, 2022
         </span>
       </div>
 
-      <div class="paper-summary">
-        This work develops a stochastic primal-dual method for nonconvex
-        optimization problems with uncertainty in the objective and numerous
-        nonconvex functional constraints. It investigates the impact of
-        dual-source sampling noise on theoretical convergence and numerical
-        performance.
-      </div>
-
-      <!-- Add DOI or paper link here when available:
       <div class="paper-links">
-        <a href="YOUR_PAPER_URL"
-           class="paper-btn paper-btn-primary"
-           target="_blank"
-           rel="noopener noreferrer">Paper</a>
+        <!-- Replace # with the actual paper URL. -->
+        <a
+          href="#"
+          class="paper-btn paper-btn-primary">
+          Paper
+        </a>
       </div>
-      -->
     </div>
   </div>
 
 </div>
+
 
 
 <!-- ==========================================================================
