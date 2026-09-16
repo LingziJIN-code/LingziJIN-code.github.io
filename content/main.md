@@ -116,45 +116,43 @@
 
 <!-- Paper 2 -->
 <div class="paper-card" data-selected="true" data-author-rank="1" data-year="2025">
-  <div class="paper-image-container">
+  <!-- <div class="paper-image-container">
     <img src="images/paper-placeholder.svg" alt="VLA-Scale teaser figure">
-  </div>
+  </div> -->
   <div class="paper-content">
-    <div class="paper-title">VLA-Scale: Cross-Embodiment Robot Learning with Differentiable Trajectory Diffusion</div>
-    <div class="paper-authors"><strong>Alex Chen</strong>, Ethan Walker, Hiroshi Tanaka, Sarah Jenkins</div>
+    <div class="paper-title">Stochastic nested primal-dual method for nonconvex constrained composition optimization</div>
+    <div class="paper-authors"><strong>Lingzi Jin</strong>, Xiao Wang</div>
     <div class="paper-meta">
-      <span class="conf-badge">NeurIPS 2025 (Spotlight)</span>
-      <span class="ccf-badge">CCF-A</span>
+      <span class="conf-badge">Mathematics of Computation, 94: 305-358</span> 
     </div>
     <div class="paper-links">
-      <a href="https://arxiv.org/" class="paper-btn paper-btn-primary" target="_blank" rel="noopener noreferrer">Paper</a>
-      <a href="https://github.com/" class="paper-btn paper-btn-secondary" target="_blank" rel="noopener noreferrer">Code</a>
-      <a href="#" class="paper-btn" target="_blank" rel="noopener noreferrer">Poster</a>
+      <a href="https://pubs.ams.org/MCOM/2025-94-351/S0025-5718-2024-03965-0" class="paper-btn paper-btn-primary" target="_blank" rel="noopener noreferrer">Paper</a>
+      <!-- <a href="https://github.com/" class="paper-btn paper-btn-secondary" target="_blank" rel="noopener noreferrer">Code</a>
+      <a href="#" class="paper-btn" target="_blank" rel="noopener noreferrer">Poster</a> -->
     </div>
   </div>
 </div>
 
 <!-- Paper 3 -->
-<div class="paper-card" data-selected="true" data-author-rank="1" data-year="2025">
-  <div class="paper-image-container">
+<div class="paper-card" data-selected="true" data-author-rank="1" data-year="2022">
+  <!-- <div class="paper-image-container">
     <img src="images/paper-placeholder.svg" alt="OmniDepth figure">
-  </div>
+  </div> -->
   <div class="paper-content">
-    <div class="paper-title">OmniDepth: Zero-Shot Monocular Metric Depth Estimation across Extreme Weather Conditions</div>
-    <div class="paper-authors"><strong>Alex Chen<sup>*</sup></strong>, Daniel Kim<sup>*</sup>, Elena Rostova, Marcus Zhang</div>
+    <div class="paper-title">A stochastic primal-dual method for a class of nonconvex constrained optimization</div>
+    <div class="paper-authors"><strong>Lingzi Jin</strong>, Xiao Wang</div>
     <div class="paper-meta">
-      <span class="conf-badge">ICCV 2025</span>
-      <span class="ccf-badge">CCF-A</span>
+      <span class="conf-badge">Computational Optimization and Applications, 83: 143-180</span> 
     </div>
     <div class="paper-links">
-      <a href="https://arxiv.org/" class="paper-btn paper-btn-primary" target="_blank" rel="noopener noreferrer">Paper</a>
-      <a href="https://github.com/" class="paper-btn paper-btn-secondary" target="_blank" rel="noopener noreferrer">Dataset</a>
+      <a href="https://link.springer.com/article/10.1007/s10589-022-00384-w" class="paper-btn paper-btn-primary" target="_blank" rel="noopener noreferrer">Paper</a>
+      <!-- <a href="https://github.com/" class="paper-btn paper-btn-secondary" target="_blank" rel="noopener noreferrer">Dataset</a> -->
     </div>
   </div>
 </div>
 
 <!-- Paper 4 (Collaborative paper, hidden in Selected tab by default) -->
-<div class="paper-card" data-author-rank="3" data-year="2026">
+<!-- <div class="paper-card" data-author-rank="3" data-year="2026">
   <div class="paper-image-container">
     <img src="images/paper-placeholder.svg" alt="TactileFlow figure">
   </div>
@@ -170,7 +168,7 @@
       <a href="https://github.com/" class="paper-btn paper-btn-secondary" target="_blank" rel="noopener noreferrer">Code</a>
     </div>
   </div>
-</div>
+</div> -->
 
 </div>
 
@@ -195,16 +193,8 @@
   </div>
 
   <div class="mini-card-status">
-    Submitted to <em>Mathematical Programming Computation</em>
-  </div>
-
-  <div class="paper-summary">
-    This work establishes complexity bounds for approximate first- and
-    second-order d-stationary points of an ℓ<sub>1</sub>-penalty reformulation
-    using a sequential quadratically regularized piecewise affine approximation
-    method. Numerical experiments validate the proposed framework for recurrent
-    neural network training.
-  </div>
+    Submitted</em>
+  </div> 
 </div>
 
 
