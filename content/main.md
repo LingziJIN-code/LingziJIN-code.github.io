@@ -54,7 +54,7 @@
 
 <ul class="modern-list">
   <li>
-    <span class="modern-list-date">2026.06</span>
+    <span class="modern-list-date">2026.06 </span>
     <span class="modern-list-content">
       I joined the Department of Applied Mathematics at The Hong Kong
       Polytechnic University as a Postdoctoral Fellow.
@@ -62,7 +62,7 @@
   </li>
 
   <li>
-    <span class="modern-list-date">2026.05</span>
+    <span class="modern-list-date">2026.05 </span>
     <span class="modern-list-content">
       I received my Ph.D. in Applied Optimization and Optimal Control from
       The Hong Kong Polytechnic University.
@@ -70,7 +70,7 @@
   </li>
 
   <li>
-    <span class="modern-list-date">2025</span>
+    <span class="modern-list-date">2025 </span>
     <span class="modern-list-content">
       Two papers were published in
       <em>SIAM Journal on Optimization</em> and
@@ -88,8 +88,7 @@
        - data-year="2026"     : Publication year. Used for secondary sorting in "All".
      ========================================================================== -->
 <h1 id="publications" class="section-title">📝 Publications</h1>
-<div class="publications-toolbar">
-  <p class="muted-note">(<sup>*</sup> denotes equal contribution, <sup>#</sup> denotes corresponding author.)</p>
+<div class="publications-toolbar"> 
   <div class="paper-toggle" role="tablist" aria-label="Publication filter">
     <button type="button" class="paper-toggle-btn is-active" data-filter="selected" role="tab" aria-selected="true">Selected</button>
     <button type="button" class="paper-toggle-btn" data-filter="all" role="tab" aria-selected="false">All</button>
@@ -99,22 +98,18 @@
 <div id="published-papers">
 
 <!-- Paper 1 -->
-<div class="paper-card" data-selected="true" data-author-rank="1" data-year="2026">
-  <div class="paper-image-container">
+<div class="paper-card" data-selected="true" data-author-rank="1" data-year="2025">
+  <!-- <div class="paper-image-container">
     <img src="images/paper-placeholder.svg" alt="GaussianGrasp teaser figure">
-  </div>
+  </div> -->
   <div class="paper-content">
-    <div class="paper-title">GaussianGrasp: 3D Gaussian Splatting as Universal Representation for Dexterous Robotic Grasping</div>
-    <div class="paper-authors"><strong>Alex Chen<sup>*</sup></strong>, Maya Patel<sup>*</sup>, Lucas Vance, Sarah Jenkins<sup>#</sup></div>
+    <div class="paper-title">Nonconvex nonsmooth multicomposite optimization and its applications to recurrent neural networks</div>
+    <div class="paper-authors"><strong>Lingzi Jin</strong>, Xiao Wang, Xiaojun Chen</div>
     <div class="paper-meta">
-      <span class="conf-badge">CVPR 2026 (Oral & Best Paper Finalist)</span>
-      <span class="ccf-badge">CCF-A</span>
+      <span class="conf-badge">SIAM Journal on Optimization, 35: 2343-2371</span> 
     </div>
     <div class="paper-links">
-      <a href="https://arxiv.org/" class="paper-btn paper-btn-primary" target="_blank" rel="noopener noreferrer">Paper</a>
-      <a href="https://github.com/" class="paper-btn paper-btn-secondary" target="_blank" rel="noopener noreferrer">Code</a>
-      <a href="#" class="paper-btn" target="_blank" rel="noopener noreferrer">Project Page</a>
-      <a href="#" class="paper-btn" target="_blank" rel="noopener noreferrer">Video Demo</a>
+      <a href="https://arxiv.org/abs/2506.17884" class="paper-btn paper-btn-primary" target="_blank" rel="noopener noreferrer">Paper</a>  
     </div>
   </div>
 </div>
