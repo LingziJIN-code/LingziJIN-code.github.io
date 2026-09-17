@@ -4,7 +4,7 @@
 <h1 id="about-me" class="section-title">🌟 About Me</h1>
 
 <p class="lead">
-  Hello! I am <strong>Lingzi Jin (金玲子)</strong>, a Postdoctoral Fellow in the
+  Hello! I am <strong>Lingzi Jin</strong>, a Postdoctoral Fellow in the
   Department of Applied Mathematics at
   <strong>The Hong Kong Polytechnic University</strong>, where I am very fortunate
   to be advised by Prof.
