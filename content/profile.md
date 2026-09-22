@@ -1,4 +1,4 @@
-<img class="profile-avatar" src="images/github-avatar-1.svg" alt="User avatar">
+<img class="profile-avatar" src="images/github-avatar-1.jpg" alt="User avatar">
 <div>
   <h1 class="profile-name">Lingzi Jin</h1>
   <p class="profile-role">Postdoctoral Fellow @ Hong Kong Polytechnic University</p>
